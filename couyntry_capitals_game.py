@@ -2,7 +2,7 @@
 """
 Created on Fri Jun  2 11:41:36 2023
 
-@author: user
+@author: Davronov Dilshod
 """
 
 import random
@@ -11,8 +11,8 @@ from cou_cap_eng import countries_dict
 
 # Function to run the game
 def play_game():
-    n=0
-    while n !=1 :
+    
+    while True :
        # Convert the city-capital dictionary into a list of tuples
        city_capitals_list = list(countries_dict.items())
 
